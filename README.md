@@ -1,2 +1,0 @@
-# haxors-website
-Website haxorsprogrammingclub

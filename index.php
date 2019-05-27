@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Haxorsprogrammingclub - Home</title>
+  <title>Safario Travel - Home</title>
 	<link rel="icon" href="img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -57,7 +57,7 @@
             </ul>
 
             <div class="nav-right text-center text-lg-right py-4 py-lg-0">
-              <a class="button" href="#">Login</a>
+              <a class="button" href="#!">Login Anggota</a>
             </div>
           </div> 
         </div>
@@ -73,7 +73,7 @@
 
       <div class="row align-items-center text-center text-md-left">
         <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
-          <h1>Spirit Of Collaborative, Never Stop Coding</h1>
+          <h1>Travel More To Discover Yourself</h1>
           <p>Air seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there is seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there </p>
           <a class="button button-hero mt-4" href="#">Get Started</a>
         </div>
