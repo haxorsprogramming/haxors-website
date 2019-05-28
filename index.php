@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Safario Travel - Home</title>
+  <title>Haxors Programming Club - Home</title>
 	<link rel="icon" href="img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
   <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Delius+Unicase&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-shape">
@@ -25,7 +25,7 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
-          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="#!"><img src="img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -34,30 +34,24 @@
 
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
-              <li class="nav-item"><a class="nav-link" href="package.html">Packages</a>
+              <li class="nav-item"><a class="nav-link" href="index.html">Tentang</a></li> 
+              <li class="nav-item"><a class="nav-link" href="about.html">Program</a></li> 
+              <li class="nav-item"><a class="nav-link" href="package.html">Kegiatan</a>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Pages</a>
+                  aria-expanded="false">Mitra</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Amentities</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://ilkomp.uinsu.ac.id" target='new'>Ilmu Komputer</a>
+                  <li class="nav-item"><a class="nav-link" href="http://nadha.id" target='new'>Nadha</a>                 
                 </ul>
 							</li>
 
-              <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Blog</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="blog.html">Blog Single</a></li>
-                  <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a></li>
-                </ul>
-							</li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            
+              <li class="nav-item"><a class="nav-link" href="#!">Kontak</a></li>
             </ul>
 
             <div class="nav-right text-center text-lg-right py-4 py-lg-0">
-              <a class="button" href="#!">Login Anggota</a>
+              <a class="button" href="#!">Login</a>
             </div>
           </div> 
         </div>
@@ -68,14 +62,19 @@
 
 
   <!--================Hero Banner Area Start =================-->
-  <section class="hero-banner magic-ball">
+  <section class="hero-banner magic-ball" style='padding-top:65px;'>
     <div class="container">
 
       <div class="row align-items-center text-center text-md-left">
         <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
-          <h1>Travel More To Discover Yourself</h1>
-          <p>Air seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there is seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there </p>
-          <a class="button button-hero mt-4" href="#">Get Started</a>
+          <h2 style="font-family:'Delius Unicase', cursive;">Spirit of Collaborative, Never Stop Coding</h2>
+          <br/>
+          <h4>Selamat datang di website<h4>
+            <h2>Haxorsprogrammingclub</h2>
+            
+          <p>Club pemrogramman di lingkungan Program Studi Ilmu Komputer, Fakultas Sains dan Teknologi, Universitas Islam Negeri Sumatera Utara.<br/>
+          Misi utama kami adalah menjadi garda utama dalam menyerap aspirasi mahasiswa/i Ilmu Komputer dalam gairah akan teknologi, khususnya pemrogramman.</p>
+          <a class="button button-hero mt-4" href="#">Tentang Haxors</a>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
           <img class="img-fluid" src="img/home/hero-img.png" alt="">
@@ -91,7 +90,7 @@
     <div class="container">
       <div class="section-intro text-center pb-90px">
         <img class="section-intro-img" src="img/home/section-icon.png" alt="">
-        <h2>Our Popular Services</h2>
+        <h2>Fokus Pengembangan</h2>
         <p>Fowl have fruit moveth male they are that place you will lesser</p>
       </div>
 
@@ -102,7 +101,7 @@
               <img class="img-fluid" src="img/home/service1.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Hotel Booking</h3>
+              <h3>Web Development</h3>
               <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
             </div>
           </div>
@@ -113,7 +112,7 @@
               <img class="img-fluid" src="img/home/service2.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Flight Booking</h3>
+              <h3>Mobile Development</h3>
               <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
             </div>
           </div>
@@ -124,7 +123,7 @@
               <img class="img-fluid" src="img/home/service3.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Destination Booking</h3>
+              <h3>IoT Development</h3>
               <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
             </div>
           </div>
@@ -157,7 +156,13 @@
   <!--================Tour section Start =================-->
   <section class="section-margin pb-xl-5">
     <div class="container">
+    <div class="section-intro text-center pb-90px">
+        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
+        <h2>Fokus Pengembangan</h2>
+        <p>Fowl have fruit moveth male they are that place you will lesser</p>
+      </div>
       <div class="row">
+        
         <div class="col-md-6">
           <div class="tour-card">
             <img class="card-img rounded-0" src="img/home/tour1.png" alt="">
@@ -177,15 +182,7 @@
         </div>
 
         <div class="col-md-6">
-          <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-              <div class="tour-content">
-                <h2>We offer worldwise tour plan recently</h2>
-                <p>Make she'd moved divided air. Whose tree that hath own upon them it multiply was blessed </p>
-              </div>
-            </div>
-          </div>
-
+          
           <div class="tour-card">
             <img class="card-img rounded-0" src="img/home/tour2.png" alt="">
             <div class="tour-card-overlay">
