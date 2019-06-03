@@ -1,0 +1,25 @@
+<div>
+		<img src="<?php echo get_template_directory_uri(); ?>/images/navigation-left.gif" style="float: left;" alt="nav-left" />
+
+		<?php $menuClass = 'nav superfish';
+		$primaryNav = '';
+		if (function_exists('wp_nav_menu')) {
+			$primaryNav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'echo' => false ) );
+		};
+		if ($primaryNav == '') { ?>
+			<ul class="<?php echo esc_attr( $menuClass ); ?>">
+				<?php if (get_option('earthlytouch_swap_navbar') == 'false') { ?>
+					<?php if (get_option('earthlytouch_home_link') == 'on') { ?>
+						<li class="page_item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e('Home','EarthlyTouch') ?></a></li>
+					<?php }; ?>
+
+					<?php show_page_menu($menuClass,false,false); ?>
+				<?php } else { ?>
+					<?php show_categories_menu($menuClass,false); ?>
+				<?php } ?>
+			</ul> <!-- end ul#nav -->
+		<?php }
+		else echo($primaryNav); ?>
+
+		<img src="<?php echo get_template_directory_uri(); ?>/images/navigation-right.gif" style="float: right;" alt="cat-right" />
+	</div>

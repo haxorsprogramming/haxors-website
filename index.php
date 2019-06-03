@@ -91,7 +91,7 @@
       <div class="section-intro text-center pb-90px">
         <img class="section-intro-img" src="img/home/section-icon.png" alt="">
         <h2>Fokus Pengembangan</h2>
-        <p>Fowl have fruit moveth male they are that place you will lesser</p>
+        <p>Setiap anggota bebas memilih fokus pengembangan yang diikuti</p>
       </div>
 
       <div class="row">
@@ -130,7 +130,49 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="service-card text-center">
+            <div class="service-card-img">
+              <img class="img-fluid" src="img/home/service1.png" alt="">
+            </div>
+            <div class="service-card-body">
+              <h3>UI/UX Design</h3>
+              <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="service-card text-center">
+            <div class="service-card-img">
+              <img class="img-fluid" src="img/home/service2.png" alt="">
+            </div>
+            <div class="service-card-body">
+              <h3>Dev Ops</h3>
+              <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="service-card text-center">
+            <div class="service-card-img">
+              <img class="img-fluid" src="img/home/service3.png" alt="">
+            </div>
+            <div class="service-card-body">
+              <h3>Data Science</h3>
+              <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+  <!--================Service Area End =================-->
+
+
+  <!--================About Area Start =================-->
+  
   <!--================Service Area End =================-->
 
 
@@ -150,6 +192,8 @@
         </div>
       </div>
     </div>
+
+    
   </section>
   <!--================About Area End =================-->
 
